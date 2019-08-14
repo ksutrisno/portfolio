@@ -1,0 +1,66 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+
+body {
+	font-family: 'Orbitron';
+}
+
+.navbar-dark 
+{
+    background-color: red;
+  }
+
+  .navbar-nav
+{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-brand
+{
+	text-align: center;
+}
+
+  
+  p1
+  {
+      font-family: "Orbitron";
+      font-style: bold;
+      font-size:  20px;
+      letter-spacing: 1px;
+  
+      text-shadow: 0 0 5px blue;
+  
+       color: white;
+  }
+  
+  p2
+  {
+      font-family: "Orbitron";
+      font-size:  14px;
+  
+      letter-spacing: 1.1px;
+      color: white;
+      text-shadow: 0 0 10px blue;
+  }
+  
+  p3
+  {
+      font-family: "Orbitron";
+      font-style: bold;
+      font-size:  14px;
+      letter-spacing: 1px;
+  
+      color: #d3d3d3;
+      
+  
+  }
+  
+  li a:hover
+  {
+      color : #add8e6;
+      cursor: pointer;
+      text-shadow: 0 0 15px blue;
+      text-decoration: none;
+  }
