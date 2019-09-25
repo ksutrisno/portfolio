@@ -16,10 +16,10 @@ function NavigationBar() {
 
     <div class="collapse navbar-collapse mr-autopse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="current" href="index.html"><p3>HOME</p3></a></li>
-         <li class="nav-item"><a href="about.html"><p3>ABOUT</p3></a></li>
-         <li class="nav-item"><a href="resume.html"><p3>RESUME</p3></a></li>
-          <li class="nav-item"><a href="contact.html"><p3>CONTACT</p3></a></li>
+          <li class="nav-item"><a class="current" href="/personal-website/"><p3>HOME</p3></a></li>
+         <li class="nav-item"><a href="/personal-website/about"><p3>ABOUT</p3></a></li>
+         <li class="nav-item"><a href="/personal-website/resume"><p3>RESUME</p3></a></li>
+          <li class="nav-item"><a href="/personal-website/contact"><p3>CONTACT</p3></a></li>
        </ul> 
      </div>
   </nav>	
