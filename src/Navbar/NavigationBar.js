@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 import './NavigationBar.css';
 
 
@@ -16,10 +16,10 @@ function NavigationBar() {
 
     <div class="collapse navbar-collapse mr-autopse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="current" href="/personal-website/"><p3>HOME</p3></a></li>
-         <li class="nav-item"><a href="/personal-website/about"><p3>ABOUT</p3></a></li>
-         <li class="nav-item"><a href="/personal-website/resume"><p3>RESUME</p3></a></li>
-          <li class="nav-item"><a href="/personal-website/contact"><p3>CONTACT</p3></a></li>
+          <li class="nav-item"><Link to="/personal-website/"><p3>HOME</p3></Link></li>
+         <li class="nav-item"><Link to="/personal-website/about"><p3>ABOUT</p3></Link></li>
+         <li class="nav-item"><Link to="/personal-website/resume"><p3>RESUME</p3></Link></li>
+          <li class="nav-item"><Link to="/personal-website/contact"><p3>CONTACT</p3></Link></li>
        </ul> 
      </div>
   </nav>	
