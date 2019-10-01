@@ -1,0 +1,14 @@
+.backToTop
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-bottom: 5%;
+}
+
+.toTopButton
+{
+    color: white;
+    background-color: rgb(33, 31, 44);
+}

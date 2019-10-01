@@ -18,6 +18,11 @@ class NavigationBar extends Component
         window.addEventListener('scroll', () =>{
         const isTop = window.scrollY > 100;
 
+        if(isTop)
+        {
+          console.log("scrolled")
+        }
+
 
         })
     }
