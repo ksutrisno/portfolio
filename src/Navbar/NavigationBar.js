@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './NavigationBar.css';
 import { Nav, Navbar } from 'react-bootstrap'
-import { tsConstructorType } from '@babel/types';
+
 import { Link} from 'react-scroll';
 
 

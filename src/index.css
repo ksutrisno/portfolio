@@ -10,6 +10,16 @@ body {
 
 }
 
+p
+{
+  font-family: "Ubuntu";
+}
+
+li
+{
+  font-family: "Ubuntu";
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

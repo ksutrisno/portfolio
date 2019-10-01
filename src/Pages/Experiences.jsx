@@ -12,7 +12,7 @@ class Experiences extends Component  {
                 <div class = 'experiences-container'>
                 <div><h2><b>Professional Experiences</b></h2></div>
                     <div class = 'experiences-item'>
-                    <a href="https://www.krikey.com"><img src="/krikey.jpg" alt="krikey" class = "logo"></img></a>
+                    <a href="https://www.krikey.com"><img src="/Krikey.jpg" alt="krikey" class = "logo"></img></a>
                     </div>
                     <div class = 'experiences-item'>
                     <h3>Unity Developer (Contract) – San Francisco, CA </h3>
