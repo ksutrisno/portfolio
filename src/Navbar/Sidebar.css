@@ -34,3 +34,18 @@
     color: rgb(73, 82, 214);
     font-size: 500%;
 }
+
+
+
+e
+{
+    font-size: 25px;
+    position: fixed;
+    margin-top: 9.5%;
+    margin-left:  85%;
+    transform: rotate(90deg);
+    font-family: "Montserrat";
+    color: white;
+    background-color: rgb(20, 26, 104);
+    padding: 8px;
+}
