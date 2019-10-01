@@ -13,7 +13,7 @@ class Footer extends Component {
     {
         return (
             <div class= "backToTop">
-             <button class = "toTopButton" onClick={this.scrollToTop}>Go Back To Top</button>
+             <button class = "toTopButton" onClick={this.scrollToTop}>GO BACK TO TOP</button>
             </div>
         )
     }

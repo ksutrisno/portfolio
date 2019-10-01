@@ -21,9 +21,7 @@ function About() {
                 My dream is to start my own game company and keep making games that everyone can enjoy!    
                 <br></br>  <br></br>
                 <b>C# | C++ | Unity | Unreal-Engine | JavaScript | HTML | CSS | React.js | Node.js</b>   
-       <br></br>  <br></br>
-               
-                <b>Favorite Games: Castlevania Series, Dark Souls, Bloodborne, Witcher 3, Hearthstone, Dota 2, Salt & Sanctuary </b>
+   
                 </p>
             </div>
   

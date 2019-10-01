@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 .backToTop
 {
     display: flex;
@@ -10,5 +12,13 @@
 .toTopButton
 {
     color: white;
-    background-color: rgb(33, 31, 44);
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button
+{
+    border-radius: 3%;
+    font-family: "Roboto";
 }
