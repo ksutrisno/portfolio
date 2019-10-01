@@ -1,0 +1,110 @@
+
+@media screen and (min-width: 1201px) {
+    div.aboutme {
+      font-size: 20px;
+      
+    }
+    h2
+    {
+        font-size: 30px;
+    }
+
+    .center
+    {
+      width: 13%;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+    }
+  }
+
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 1200px) and (min-width:601px) {
+      div.aboutme {
+        font-size: 18px;
+        width: 70%;
+      }
+      h2
+      {
+          font-size: 20px;
+      }
+
+      .center
+    {
+      width: 16%;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+    }
+
+    }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.aboutme {
+      font-size: 17px;
+      width: 90%;
+    }
+    h2
+    {
+        font-size: 20px;
+    }
+
+    .center
+    {
+      width: 20%;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+    }
+
+
+  }
+
+.aboutme
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+
+ 
+}
+
+h2
+{
+    text-align: center;
+    display: block;
+}
+
+
+.bio
+{
+    text-align: center;
+    display: inline-block;
+ 
+}
+
+
+
+
+/*
+.about-container
+{
+
+  display: block;
+  border-style: solid;
+
+  padding-bottom : 3%;
+  margin-top : 1%;
+  border-radius: 5%;
+
+}
+*/

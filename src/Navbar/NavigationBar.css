@@ -6,27 +6,19 @@ body {
 	font-family: 'Orbitron';
 }
 
-.navbar-dark 
-{
-    background-color: red;
-  }
 
-  .navbar-nav
-{
-	position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .navbar-brand
 {
 	text-align: center;
 }
 
-.nav-item 
-{
-	padding: 10px;	
-}
   
+.center-navbar {
+    width:25%;
+    margin-left: 24%;
+
+}
+
   p1
   {
       font-family: "Orbitron";
@@ -49,22 +41,38 @@ body {
       text-shadow: 0 0 10px blue;
   }
   
-  p3
+  .nav-item
   {
       font-family: "Orbitron";
-      font-style: bold;
-      font-size:  14px;
-      letter-spacing: 1px;
-  
-      color: #d3d3d3;
-      
-  
+        font-style: bold;
+        font-size:  14px;
+        letter-spacing: 1px;
+        color : gainsboro;
+        padding : 5px;
+        margin-left: 1px;
+    text-align: center;
+
+
   }
-  
-  li a:hover
-  {
-      color : #add8e6;
+
+
+
+.nav-item:hover
+{
+        color : gainsboro;
       cursor: pointer;
-      text-shadow: 0 0 15px blue;
+      text-shadow: 0 0 25px white;
       text-decoration: none;
-  }
+}
+  
+.active {
+    
+    text-shadow: 0 0 5px orange;
+    text-decoration: underline;
+    text-decoration-color: orange;   
+}
+
+
+
+
+

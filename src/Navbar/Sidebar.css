@@ -1,0 +1,36 @@
+@media screen and (min-width: 1201px) {
+    .social-links
+    {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    
+  }
+
+
+    @media screen and (max-width: 1200px) {
+        .social-links
+        {
+            display: none;
+            
+        }
+    }
+
+.social-links i{
+
+    padding: 5px;
+    color: rgb(20, 26, 104);
+    font-size: 500%;
+}
+
+.social-links i:hover
+{
+    padding: 5px;
+    color: rgb(73, 82, 214);
+    font-size: 500%;
+}

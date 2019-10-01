@@ -1,30 +1,89 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {Component} from 'react';
 import './NavigationBar.css';
+import { Nav, Navbar } from 'react-bootstrap'
+import { tsConstructorType } from '@babel/types';
+import { Link} from 'react-scroll';
 
 
-function NavigationBar() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-dark">
-    <div className="navbar-header">
-       <a className="navbar-brand" href="/"><p1><b>KEVIN SUTRISNO<br/></b></p1>
-                       <p2>PROGRAMMER / GAME DEVELOPER</p2></a>   		
-    </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+class NavigationBar extends Component
+{
+  constructor(props)
+  {
+    super(props);
 
-    <div class="collapse navbar-collapse mr-autopse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item"><Link to="/personal-website/"><p3>HOME</p3></Link></li>
-         <li class="nav-item"><Link to="/personal-website/about"><p3>ABOUT</p3></Link></li>
-         <li class="nav-item"><Link to="/personal-website/resume"><p3>RESUME</p3></Link></li>
-          <li class="nav-item"><Link to="/personal-website/contact"><p3>CONTACT</p3></Link></li>
-       </ul> 
-     </div>
-  </nav>	
-  )
+  }
+
+  componentDidMount()
+    {
+        window.addEventListener('scroll', () =>{
+        const isTop = window.scrollY > 100;
+
+
+        })
+    }
+  
+
+  
+  state = {
+    navExpanded:false
+  }
+
+
+  setNavExpanded = (expanded) =>
+  {
+    this.setState({navExpanded: expanded });
+  }
+
+
+
+  handleSetActive(to) {
+    document.getElementById(to).style.color = "orange";
+   
+  }
+ 
+  handleSetInactive(to)
+  {
+    document.getElementById(to).style.color = "gainsboro";
+
+  }
+
+  render () {
+    return (
+     
+      <Navbar  onToggle = {this.setNavExpanded} 
+       expanded={this.state.navExpanded} sticky ="top" collapseOnSelect bg="dark" expand="lg" variant="dark">
+         <Navbar.Brand href="#"><p1><b>KEVIN SUTRISNO<br/></b></p1>
+                         <p2>FRONT-END / GAME DEVELOPER</p2>  		
+       </Navbar.Brand>
+    <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+       
+        <Nav className= "center-navbar">
+        <div class="nav-item" id = "two"><Link activeClassName ="active" exact to="section-two"  spy={true} smooth={true} offset={-250} duration={500}ignoreCancelEvents={true}
+        onSetActive={()=>this.handleSetActive("two")}   onSetInactive={()=>this.handleSetInactive("two")  } 
+        >ABOUT</Link></div>
+
+        <div class="nav-item" id = "zero"><Link activeClassName ="active" exact to="section-zero"  spy={true} smooth={true} offset={-95} duration={500}ignoreCancelEvents={true}
+                 onSetActive={()=>this.handleSetActive("zero")}   onSetInactive={()=>this.handleSetInactive("zero")}
+        >EXPERIENCES</Link></div>
+   
+       <div class="nav-item" id = "one"><Link activeClassName ="active" exact to="section-one"   spy={true} smooth={true} offset={-80} duration={500}ignoreCancelEvents={true}
+        onSetActive={()=>this.handleSetActive("one")}   onSetInactive={()=>this.handleSetInactive("one")}
+      >PROJECTS</Link></div>
+               
+       <a href = "resume.pdf" target = "blank" class="nav-item" id = "three"> RESUME</a>
+            
+       
+          </Nav>
+       </Navbar.Collapse>
+      
+    </Navbar>	
+
+    )
+  }
 }
+
+
 
 
 
