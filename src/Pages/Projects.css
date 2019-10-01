@@ -135,12 +135,12 @@
 .minesweeper
 {
     max-width: 70%;
-    max-height: 70%;
+    height: auto;
 }
 
 
 .pacman
 {
     max-width: 90%;
-    max-height: 90%;
+    height: auto;
 }
