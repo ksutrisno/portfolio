@@ -30,7 +30,7 @@ class Projects extends Component  {
                                     <img class='unity' src="unitylogo.png" alt="googleplay"></img>
                                </div>
                              </div>
-                             <div className = 'video-col'> <iframe width="500" height="280" src="https://www.youtube.com/embed/a4fP8sVVePI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                             
             </div>
             <br/> <br/> <hr></hr>
             <div class = 'projects-header'><h2><b>Personal Projects</b></h2></div>  
