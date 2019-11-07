@@ -1,0 +1,146 @@
+@media screen and (min-width: 1001px) {
+    .container
+    { 
+        display: flex;
+    
+        flex-direction: row;
+    
+
+        justify-content: space-evenly;
+
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .desc-col
+    {
+       
+        width: 45%;
+        
+        margin-top: 20px;
+    
+    }
+
+
+
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 1000px) {
+    .container
+    { 
+        display: flex;
+    
+        flex-direction: column-reverse;
+    
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .desc-col
+    {
+       
+        width: 80%;
+        
+        margin-top: 20px;
+    
+    }
+
+    .video-col
+    {
+        width: 97%;
+        height: 90%;
+        display: inline-flex;
+    }
+
+  }
+
+
+.taprushlogo
+{
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+}
+
+.projects
+{   
+    margin-top: 15%;
+    background-color: beige;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+
+
+.image-col
+{
+    max-height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.video-col
+{
+    margin-top: 50px;
+ 
+}
+
+
+.projects-header
+{
+    padding-top: 2.0%;
+  
+}
+
+.project-title
+{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+.project-platform
+{
+    color: orange;
+    margin-top: -5px;
+    margin-left: 3px;
+}
+
+.gplaylogo
+{
+    width: 50%;
+}
+
+.unity
+{   
+    margin: 10px;
+    width: 35%;
+}
+
+.button
+{
+    background-color: black;
+    color: aliceblue;
+    width: 40%;
+    height: 20%;
+    margin: 20px;
+}
+
+
+.minesweeper
+{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+.pacman
+{
+    max-width: 90%;
+    max-height: 90%;
+}
