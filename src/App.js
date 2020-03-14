@@ -7,7 +7,6 @@ import Sidebar from './Navbar/Sidebar';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Footer from './Pages/Footer';
-
 import Experiences from './Pages/Experiences';
 
 
