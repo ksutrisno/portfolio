@@ -5,16 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 class NavigationBar extends Component {
-  componentDidMount() {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY > 100;
-
-      if (isTop) {
-        console.log("scrolled");
-      }
-    });
-  }
-
+ 
   state = {
     navExpanded: false
   };
