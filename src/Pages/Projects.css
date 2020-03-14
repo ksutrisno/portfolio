@@ -121,12 +121,12 @@
 }
 
 .pacman {
-  max-width: 85%;
-  max-height: auto;
+  max-width: 85vw;
+  max-height: 85vw;
 }
 
 .behaviour-tree
 {
-    max-width: 85%;
-    max-height: auto;
+    max-width: 85vw;
+    max-height: 85vw;
 }
