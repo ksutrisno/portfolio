@@ -7,62 +7,6 @@ class Projects extends Component {
     return (
       <div>
         <div class="projects" id="section-one">
-          <div class="projects-header">
-            <h2>
-              <b>Commercial Project</b>
-            </h2>
-          </div>
-          <div className="container">
-            <div className="desc-col">
-              <h3 className="project-title">TAP RUSH</h3>
-              <h5 className="project-platform">Android</h5>
-              <p>
-                Tap rush is a mobile arcade game with multiple different game
-                modes. The player need to match the color of the upcoming
-                projectile with the wheel. This game aim to train the player
-                reflex and hand-eye coordination
-              </p>
-              <h5> Features:</h5>
-              <ul>
-                <li className="point"> 3 different game modes</li>
-                <li className="point">
-                  {" "}
-                  Various patterns of incoming projectiles
-                </li>
-                <li className="point"> High score & leaderboard</li>
-                <li className="point">
-                  {" "}
-                  Store for cosmetics and customization
-                </li>
-              </ul>
-
-              <div className="horizontal-container">
-                <a className ="link" href="https://play.google.com/store/apps/details?id=com.ThreeOneNine.ColorRush">
-                  <img
-                    class="gplaylogo"
-                    src="googleplaylogo.png"
-                    alt="googleplay"
-                  ></img>
-                </a>
-                <img class="unity" src="unitylogo.png" alt="googleplay"></img>
-              </div>
-            </div>
-            <div className="video-col">
-              {" "}
-              <iframe
-              title = "taprush"
-                    width="100%"
-                    height="100%"
-                src="https://www.youtube.com/embed/a4fP8sVVePI"
-                frameborder="0"
-                allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen"
-              ></iframe>{" "}
-            </div>
-          </div>
           <br /> <br /> <hr></hr>
           <div class="projects-header">
             <h2>
@@ -72,7 +16,7 @@ class Projects extends Component {
           <div className="container">
             <div className="desc-col">
               <h3 className="project-title">DIMENSION HUNTER</h3>
-              <h5 className="project-platform">Windows</h5>
+              <h5 className="project-platform">Windows/Mac/Linux</h5>
               <p>
                 Dimension Hunter is a 2D Metroidvania game about a renowned
                 bounty hunter named X. His mission is to enter the mysterious
@@ -81,14 +25,14 @@ class Projects extends Component {
               </p>
               <h5> Features:</h5>
               <ul>
-                <li className="point"> Fast pace combat</li>
-                <li className="point"> Multiple enemies</li>
-                <li className="point"> Different weapon to choose from</li>
-                <li className="point"> Boss fights</li>
+                <li class="point"> Fast pace combat</li>
+                <li class="point"> Multiple enemies</li>
+                <li class="point"> Different weapon to choose from</li>
+                <li class="point"> Boss fights</li>
               </ul>
 
-
-                <a className ="link"
+              <div className="horizontal-container">
+                <a
                   href="https://drive.google.com/open?id=1tBuVscpTUzAQZcRLetrIIeVWry-veYut"
                   target="blank"
                 >
@@ -96,23 +40,18 @@ class Projects extends Component {
                     DOWNLOAD DEMO
                   </button>
                 </a>
-           
+              </div>
             </div>
 
             <div className="video-col">
               {" "}
               <iframe
-                title = "dimensionhunter"
-                  width="100%"
-                  height="100%"
+                width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/E8NqJmagab4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen="allowfullscreen"
-                mozallowfullscreen="mozallowfullscreen" 
-                msallowfullscreen="msallowfullscreen" 
-                oallowfullscreen="oallowfullscreen" 
-                webkitallowfullscreen="webkitallowfullscreen"
+                allowfullscreen
               ></iframe>{" "}
             </div>
           </div>
@@ -120,7 +59,7 @@ class Projects extends Component {
           <div className="container">
             <div className="desc-col">
               <h3 className="project-title">SLIME ESCAPE FROM HELL</h3>
-              <h5 className="project-platform">Windows</h5>
+              <h5 className="project-platform">Windows/Mac/Linux</h5>
               <p>
                 {" "}
                 Escape From Hell is a 2D roguelike dungeon crawler with randomly
@@ -136,7 +75,8 @@ class Projects extends Component {
                 <li class="point"> Randomly generated maps</li>
               </ul>
 
-                <a className ="link"
+              <div className="horizontal-container">
+                <a
                   href="https://askeladd2802.itch.io/slime-escape-from-hell"
                   target="blank"
                 >
@@ -144,23 +84,18 @@ class Projects extends Component {
                     DOWNLOAD DEMO
                   </button>
                 </a>
-        
+              </div>
             </div>
 
             <div className="video-col">
               {" "}
               <iframe
-                title = "slime"
-                width="100%"
-                height="100%"
+                width="500"
+                height="280"
                 src="https://www.youtube.com/embed/tatxG39f2f4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen="allowfullscreen"
-                mozallowfullscreen="mozallowfullscreen" 
-                msallowfullscreen="msallowfullscreen" 
-                oallowfullscreen="oallowfullscreen" 
-                webkitallowfullscreen="webkitallowfullscreen"
+                allowfullscreen
               ></iframe>{" "}
             </div>
           </div>
@@ -177,8 +112,8 @@ class Projects extends Component {
                 made during my Midterm of AI Programming class at Academy of
                 Art.
               </p>
-           
-                <a className ="link"
+              <div className="horizontal-container">
+                <a
                   href="https://drive.google.com/open?id=1-kp3eVKD1o-3T9HVtmCcnZdifctKKWIa"
                   target="blank"
                 >
@@ -186,10 +121,10 @@ class Projects extends Component {
                     DOWNLOAD DEMO
                   </button>
                 </a>
-           
+              </div>
             </div>
 
-            <ModalImage className = "behaviour-tree"
+            <ModalImage
               small={"behaviourtree_unreal.png"}
               large={"behaviourtree_unreal_lg.png"}
               alt="Behaviour Tree"
@@ -209,8 +144,8 @@ class Projects extends Component {
                 is to show understanding over network programming.
               </p>
 
-            
-                <a className ="link"
+              <div className="horizontal-container">
+                <a
                   href="https://drive.google.com/open?id=1xBhvxdGrdz-CHMzY8Pe_GXPYlRBVds_z"
                   target="blank"
                 >
@@ -218,7 +153,7 @@ class Projects extends Component {
                     SOURCE CODE
                   </button>
                 </a>
-            
+              </div>
             </div>
 
             <div className="image-col">
@@ -245,8 +180,8 @@ class Projects extends Component {
                 <li class="point"> Shane King(Engine Owner)</li>
                 <li class="point"> Tedo Pranowo</li>
               </ul>
-            
-                <a className ="link"
+              <div className="horizontal-container">
+                <a
                   href="https://drive.google.com/open?id=1a6-MoSSR6yIon4cqxb176tZoY2r1mMr6"
                   target="blank"
                 >
@@ -254,7 +189,7 @@ class Projects extends Component {
                     DOWNLOAD GAME
                   </button>
                 </a>
-     
+              </div>
             </div>
 
             <div className="image-col">
