@@ -12,8 +12,8 @@ class Footer extends Component {
     render()
     {
         return (
-            <div class= "backToTop">
-             <button class = "toTopButton" onClick={this.scrollToTop}>GO BACK TO TOP</button>
+            <div className= "backToTop">
+             <button className = "toTopButton" onClick={this.scrollToTop}>GO BACK TO TOP</button>
             </div>
         )
     }

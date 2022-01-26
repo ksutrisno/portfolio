@@ -1,6 +1,5 @@
-import React from 'react';
-import './Sidebar.css';
-
+import React from "react";
+import "./Sidebar.css";
 
 function Sidebar() {
     
@@ -14,11 +13,11 @@ function Sidebar() {
             <a href ="/#" onClick={()=>window.open("https://www.youtube.com/channel/UCaYkQ1zUpXlqy4_lQkMVNJw")}><i className = "fa fa-youtube-square" aria-hidden = "true"></i></a>
         </div>instagram
 
-        <div class = "email">
-             <e>kevinjsutrisno@gmail.com</e>
-        </div>
-        </div>
-    )
-  }
+      <div className="email">
+        <e>kevinjsutrisno@gmail.com</e>
+      </div>
+    </div>
+  );
+}
 
-  export default Sidebar;
+export default Sidebar;
